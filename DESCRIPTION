@@ -1,0 +1,15 @@
+Package: rcoinbase
+Title: Provides an R interface for making requests to the Coinbase API
+Version: 0.0.1
+Authors@R: person("Robert","Zamora", email = "zamora.rr@gmail.com", role = c("aut", "cre"))
+Description: Unoffical Coinbase R library. Provides collection of helper functions for querying Coinbase API and parsing response.
+Depends: R (>= 3.4.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports:
+  digest,
+  httr,
+  jsonlite,
+  utils
