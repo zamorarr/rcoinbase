@@ -3,6 +3,8 @@
 This package is still under development and not all endpoints have been 
 implemented yet. 
 
+Please see the official [Coinbase API reference](https://developers.coinbase.com/api/v2) for more information on the web API.
+
 ## Example usage
 ```R
 library(rcoinbase)

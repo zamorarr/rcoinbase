@@ -5,6 +5,10 @@
 #' @param method appropriate web method. These map to httr::GET, httr::POST, etc...
 #' @param ... extra arguments passed to httr::GET, httr::POST, etc...
 #' @keywords internal
+#' @examples
+#' \dontrun{
+#' coinbase_get("prices/BTC-USD/spot", query = list(date = "2017-01-01"))
+#' }
 coinbase_api <- function(endpoint, method = c("get", "post", "put", "delete"), ...) {
   stopifnot(length(endpoint) == 1L)
 
