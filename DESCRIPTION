@@ -13,3 +13,6 @@ Imports:
   httr,
   jsonlite,
   utils
+Suggests:
+  covr,
+  httptest

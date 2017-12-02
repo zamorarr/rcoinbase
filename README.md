@@ -1,3 +1,6 @@
+[![Travis-CI Build Status](https://travis-ci.org/zamorarr/rcoinbase.svg?branch=master)](https://travis-ci.org/zamorarr/rcoinbase)
+[![Coverage Status](https://img.shields.io/codecov/c/github/zamorarr/rcoinbase/master.svg)](https://codecov.io/github/zamorarr/rcoinbase?branch=master)
+ 
 ## Overview 
 **rcoinbase** provides an R interface for making requests to the Coinbase API.
 This package is still under development and not all endpoints have been 

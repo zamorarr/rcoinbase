@@ -26,4 +26,9 @@ coinbase_delete(endpoint, ...)
 \description{
 Make request to Coinbase API.
 }
+\examples{
+\dontrun{
+coinbase_get("prices/BTC-USD/spot", query = list(date = "2017-01-01"))
+}
+}
 \keyword{internal}

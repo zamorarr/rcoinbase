@@ -29,7 +29,7 @@ coinbase_api <- function(endpoint, method = c("get", "post", "put", "delete"), .
   signature <- access_signature(timestamp, path, request_body, method = method)
 
   # build headers
-  # "Please supply API version (YYYY-MM-DD) as CB-VERSION header
+  # Please supply API version (YYYY-MM-DD) as CB-VERSION header
   headers <- httr::add_headers(
     "CB-ACCESS-TIMESTAMP" = timestamp,
     "CB-ACCESS-KEY" = api_key,
