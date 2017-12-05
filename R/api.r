@@ -121,7 +121,7 @@ access_signature <- function(timestamp, request_path, request_body = "",
                              method = c("get", "post", "put", "delete") ) {
   method <- toupper(match.arg(method))
 
-  if (nchar(request_body) > 0) {
+  if (any(nchar(request_body) > 0)) {
     body <- paste(jsonlite::toJSON(request_body, auto_unbox = TRUE), collapse = "\n")
   } else {
     body <- ""
