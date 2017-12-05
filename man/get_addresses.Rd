@@ -15,3 +15,8 @@ Lists addresses for an account.
 \references{
 \url{https://developers.coinbase.com/api/v2#list-addresses}
 }
+\seealso{
+Other wallet-addresses: \code{\link{create_address}},
+  \code{\link{get_address_transactions}},
+  \code{\link{get_address}}
+}

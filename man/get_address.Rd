@@ -20,10 +20,7 @@ be associated to the correct account.
 \url{https://developers.coinbase.com/api/v2#show-addresss}
 }
 \seealso{
-Other wallet-accounts: \code{\link{create_account}},
-  \code{\link{delete_account}}, \code{\link{get_accounts}},
-  \code{\link{get_account}},
+Other wallet-addresses: \code{\link{create_address}},
   \code{\link{get_address_transactions}},
-  \code{\link{set_primary_account}},
-  \code{\link{update_account}}
+  \code{\link{get_addresses}}
 }

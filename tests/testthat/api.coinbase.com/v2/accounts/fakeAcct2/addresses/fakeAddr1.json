@@ -1,0 +1,13 @@
+{
+  "data": {
+    "id": "fakeAddr1",
+    "address": "123456",
+    "name": "New receive address",
+    "created_at": "2017-01-01T12:34:56Z",
+    "updated_at": "2017-01-01T12:34:56Z",
+    "network": "bitcoin",
+    "resource": "address",
+    "resource_path": "/v2/accounts/fakeAcct2/addresses/fakeAddr1",
+    "callback_url": {}
+  }
+}

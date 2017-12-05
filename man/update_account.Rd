@@ -26,8 +26,6 @@ resp <- update_account("123456", list(name = "New account name"))
 Other wallet-accounts: \code{\link{create_account}},
   \code{\link{delete_account}}, \code{\link{get_accounts}},
   \code{\link{get_account}},
-  \code{\link{get_address_transactions}},
-  \code{\link{get_address}},
   \code{\link{set_primary_account}}
 }
 \keyword{internal}

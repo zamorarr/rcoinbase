@@ -19,7 +19,7 @@ get_addresses <- function(account_id) {
 #' @param account_id Account Id
 #' @param address_id Address Id
 #' @export
-#' @family wallet-accounts
+#' @family wallet-addresses
 #' @references \url{https://developers.coinbase.com/api/v2#show-addresss}
 get_address <- function(account_id, address_id) {
   endpoint <- paste("accounts", account_id, "addresses", address_id, sep = "/")
@@ -35,9 +35,30 @@ get_address <- function(account_id, address_id) {
 #' @param account_id Account Id
 #' @param address_id Address Id
 #' @export
-#' @family wallet-accounts
+#' @family wallet-addresses
 #' @references \url{https://developers.coinbase.com/api/v2#list-address39s-transactions}
 get_address_transactions <- function(account_id, address_id) {
   endpoint <- paste("accounts", account_id, "addresses", address_id, "transactions", sep = "/")
   coinbase_get(endpoint)
+}
+
+#' Create address
+#'
+#' Creates a new address for an account. As all the arguments are optional, it’s
+#' possible just to do a empty POST which will create a new address. This is
+#' handy if you need to create new receive addresses for an account on-demand.
+#' Addresses can be created for all account types. With fiat accounts, funds
+#' will be received with Instant Exchange.
+#'
+#' @param account_id Account Id
+#' @keywords internal
+#' @family wallet-addresses
+#' @references \url{https://developers.coinbase.com/api/v2#create-address}
+#' @examples
+#' \dontrun{
+#' addr <- create_address("fakeAcct2", body = list(name = "New receive address"))
+#' }
+create_address <- function(account_id, body = "") {
+  endpoint <- paste("accounts", account_id, "addresses", sep = "/")
+  coinbase_post(endpoint, body = body)
 }

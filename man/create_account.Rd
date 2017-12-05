@@ -24,8 +24,6 @@ resp <- create_account(body)
 \seealso{
 Other wallet-accounts: \code{\link{delete_account}},
   \code{\link{get_accounts}}, \code{\link{get_account}},
-  \code{\link{get_address_transactions}},
-  \code{\link{get_address}},
   \code{\link{set_primary_account}},
   \code{\link{update_account}}
 }

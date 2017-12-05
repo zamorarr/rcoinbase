@@ -20,9 +20,6 @@ address_id but the address has to be associated to the correct account.
 \url{https://developers.coinbase.com/api/v2#list-address39s-transactions}
 }
 \seealso{
-Other wallet-accounts: \code{\link{create_account}},
-  \code{\link{delete_account}}, \code{\link{get_accounts}},
-  \code{\link{get_account}}, \code{\link{get_address}},
-  \code{\link{set_primary_account}},
-  \code{\link{update_account}}
+Other wallet-addresses: \code{\link{create_address}},
+  \code{\link{get_addresses}}, \code{\link{get_address}}
 }
