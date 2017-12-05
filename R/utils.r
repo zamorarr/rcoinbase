@@ -1,6 +1,8 @@
 #' Write json pretty
 #'
-#' Help write response jsons pretty
+#' Re-write existing json file with pretty formatting
+#'
+#' @param path path to json file on disk
 #' @keywords internal
 #' @examples
 #' \dontrun{
@@ -14,6 +16,7 @@ pretty_json <- function(path) {
 #' Capture requests to tests directory
 #'
 #' Helper to build up mock fixtures for testing
+#' @param expr R expresssion to execute
 #' @examples
 #' \dontrun{
 #' capture_requests2(get_accounts())

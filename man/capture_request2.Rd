@@ -6,6 +6,9 @@
 \usage{
 capture_request2(expr)
 }
+\arguments{
+\item{expr}{R expresssion to execute}
+}
 \description{
 Helper to build up mock fixtures for testing
 }

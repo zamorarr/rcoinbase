@@ -6,8 +6,11 @@
 \usage{
 pretty_json(path)
 }
+\arguments{
+\item{path}{path to json file on disk}
+}
 \description{
-Help write response jsons pretty
+Re-write existing json file with pretty formatting
 }
 \examples{
 \dontrun{
