@@ -1,0 +1,31 @@
+{
+  "data": {
+    "id": "fakeTrans1",
+    "type": "buy",
+    "status": "pending",
+    "amount": {
+      "amount": "0.03",
+      "currency": "BTC"
+    },
+    "native_amount": {
+      "amount": "300.00",
+      "currency": "USD"
+    },
+    "description": {},
+    "created_at": "2017-01-01T12:34:56Z",
+    "updated_at": "2017-01-01T12:34:56Z",
+    "resource": "transaction",
+    "resource_path": "/v2/accounts/fakeAcct2/transactions/fakeTrans1",
+    "instant_exchange": false,
+    "buy": {
+      "id": "fakeBuy1",
+      "resource": "buy",
+      "resource_path": "/v2/accounts/fakeAcct2/buys/fakeBuy1"
+    },
+    "details": {
+      "title": "Bought Bitcoin",
+      "subtitle": "Using E Corp ********1234",
+      "payment_method_name": "E Corp ********1234"
+    }
+  }
+}
