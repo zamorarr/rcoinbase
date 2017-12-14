@@ -1,0 +1,98 @@
+{
+  "pagination": {
+    "ending_before": {},
+    "starting_after": {},
+    "limit": 25,
+    "order": "desc",
+    "previous_uri": {},
+    "next_uri": {}
+  },
+  "data": [
+    {
+      "id": "fakeBuy1",
+      "status": "completed",
+      "payment_method": {
+        "id": "fakePaymentMethod1",
+        "resource": "payment_method",
+        "resource_path": "/v2/payment-methods/fakePaymentMethod1"
+      },
+      "transaction": {
+        "id": "fakeTrans1",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/fakeAcct2/transactions/fakeTrans1"
+      },
+      "user_reference": "ABCDEFGH1",
+      "created_at": "2017-01-01T12:34:56Z",
+      "updated_at": "2017-01-01T12:34:56Z",
+      "resource": "buy",
+      "resource_path": "/v2/accounts/fakeAcct2/buys/fakeBuy1",
+      "fee": {
+        "amount": "5.00",
+        "currency": "USD"
+      },
+      "payment_method_fee": {
+        "amount": "0.00",
+        "currency": "USD"
+      },
+      "amount": {
+        "amount": "0.05",
+        "currency": "BTC"
+      },
+      "total": {
+        "amount": "604.00",
+        "currency": "USD"
+      },
+      "subtotal": {
+        "amount": "599.00",
+        "currency": "USD"
+      },
+      "committed": true,
+      "payout_at": "2017-01-01T12:34:56Z",
+      "instant": false,
+      "requires_completion_step": false
+    },
+    {
+      "id": "fakeBuy2",
+      "status": "completed",
+      "payment_method": {
+        "id": "fakePaymentMethod1",
+        "resource": "payment_method",
+        "resource_path": "/v2/payment-methods/fakePaymentMethod1"
+      },
+      "transaction": {
+        "id": "fakeTrans2",
+        "resource": "transaction",
+        "resource_path": "/v2/accounts/fakeAcct2/transactions/fakeTrans2"
+      },
+      "user_reference": "ABCDEFGH2",
+      "created_at": "2017-01-01T12:34:56Z",
+      "updated_at": "2017-01-01T12:34:56Z",
+      "resource": "buy",
+      "resource_path": "/v2/accounts/fakeAcct2/buys/fakeBuy2",
+      "fee": {
+        "amount": "1.00",
+        "currency": "USD"
+      },
+      "payment_method_fee": {
+        "amount": "0.00",
+        "currency": "USD"
+      },
+      "amount": {
+        "amount": "0.01",
+        "currency": "BTC"
+      },
+      "total": {
+        "amount": "101.00",
+        "currency": "USD"
+      },
+      "subtotal": {
+        "amount": "100.00",
+        "currency": "USD"
+      },
+      "committed": true,
+      "payout_at": "2017-01-01T12:34:56Z",
+      "instant": false,
+      "requires_completion_step": false
+    }
+  ]
+}
